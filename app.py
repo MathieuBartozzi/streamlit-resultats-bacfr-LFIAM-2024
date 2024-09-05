@@ -39,7 +39,7 @@ with col1:
     st.dataframe(df_filtred)
 
 
-st.write("Visualisation des distributions et comparaisons des notes d'écrit et d'oral")
+st.write("Visualisation des distributions et comparaisons des notes d'écrit et d'oral : ")
 # Afficher le résumé statistique global dans la deuxième colonne
 with col2:
     st.write("Résumé statistique :")
