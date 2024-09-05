@@ -78,6 +78,15 @@ axes[1, 1].set_ylabel('Moyenne')
 plt.tight_layout()
 st.pyplot(fig_global)
 
+st.markdown("""
+### Analyse des performances en écrit et en oral :
+
+- **Hétérogénéité à l'oral** : Les élèves ont de meilleures moyennes à l'oral, mais la différence entre les notes minimales et maximales est plus marquée (3 à 20) qu'à l'écrit (7 à 20), indiquant une plus grande variabilité.
+- **Concentration à l'écrit** : Les notes d'écrit sont plus homogènes, concentrées autour de 8 à 14, avec moins de dispersion.
+- **Performance générale** : Les élèves réussissent mieux à l'oral, mais l'écart des performances montre que certains excellent tandis que d'autres rencontrent des difficultés.
+""")
+
+
 # --- Partie 2 : Analyse filtrée par classe ---
 st.header('2. Analyse par classe')
 
